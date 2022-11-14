@@ -1,6 +1,6 @@
-import icon9 from '../img/icon-9.png';
-import icon10 from '../img/icon-10.png';
-import icon2 from '../img/icon-2.png';
+import icon9 from '../../img/icon-9.png';
+import icon10 from '../../img/icon-10.png';
+import icon2 from '../../img/icon-2.png';
 import {Transactions} from "./Transactions";
 
 

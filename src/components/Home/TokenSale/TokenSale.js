@@ -1,8 +1,8 @@
 import {Sale} from "./Sale";
-import payment1 from '../img/payment-1.png';
-import payment2 from '../img/payment-2.png';
-import payment3 from '../img/payment-3.png';
-import payment4 from '../img/payment-4.png';
+import payment1 from '../../img/payment-1.png';
+import payment2 from '../../img/payment-2.png';
+import payment3 from '../../img/payment-3.png';
+import payment4 from '../../img/payment-4.png';
 
 const TokenSale = () => {
 

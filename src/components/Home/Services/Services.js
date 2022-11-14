@@ -1,9 +1,9 @@
-import icon7 from '../img/icon-7.png';
-import icon2 from '../img/icon-2.png';
-import icon5 from '../img/icon-5.png';
-import icon3 from '../img/icon-3.png';
-import icon8 from '../img/icon-8.png';
-import icon9 from '../img/icon-9.png';
+import icon7 from '../../img/icon-7.png';
+import icon2 from '../../img/icon-2.png';
+import icon5 from '../../img/icon-5.png';
+import icon3 from '../../img/icon-3.png';
+import icon8 from '../../img/icon-8.png';
+import icon9 from '../../img/icon-9.png';
 import {Service} from "./Service";
 
 const Services = () => {

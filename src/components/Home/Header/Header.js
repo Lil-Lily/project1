@@ -1,4 +1,4 @@
-import hero1 from '../img/hero-1.png';
+import hero1 from '../../img/hero-1.png';
 
 const Header = () => {
     return (

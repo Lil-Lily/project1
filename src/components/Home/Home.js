@@ -1,6 +1,4 @@
 import React from "react";
-import {NavBar} from "./Navbar/Navbar";
-import {Header} from "./Header/Header";
 import {About} from "./About/About";
 import {TotalTransactions} from "./Transactions/TotalTransactions";
 import {Features} from "./Features/Features";
@@ -8,13 +6,13 @@ import {Services} from "./Services/Services";
 import {Roadmap} from "./Roadmap/Roadmap";
 import {TokenSale} from "./TokenSale/TokenSale";
 import {Faqs} from "./Faqs/Faqs";
-import {Footer} from "./Footer/Footer";
+import {Layout} from "../Layout/Layout";
+import {Header} from "./Header/Header";
 
 
 const Home = () => {
     return (
-        <React.Fragment>
-            <NavBar/>
+        <Layout>
             <Header/>
             <About/>
             <TotalTransactions/>
@@ -23,8 +21,7 @@ const Home = () => {
             <Roadmap/>
             <TokenSale/>
             <Faqs/>
-            <Footer/>
-        </React.Fragment>
+        </Layout>
     );
 };
 export {Home};
